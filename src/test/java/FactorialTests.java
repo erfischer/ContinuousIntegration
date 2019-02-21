@@ -13,7 +13,7 @@ public class FactorialTests{
     public void failingTest() {
         Factorial n = new Factorial();
         int i = n.calculateFactorial(3);
-        assertEquals(24, i);
+        assertEquals(6, i);
     }
 
 
